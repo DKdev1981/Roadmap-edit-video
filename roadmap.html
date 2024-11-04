@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadmap do Projeto</title>
+    <style>
+        .fase {
+            cursor: pointer;
+            padding: 10px;
+            margin: 5px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .detalhes {
+            display: none;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Roadmap Edição de Videos</h1>
+    <p>Este diagrama interativo mostra as fases principais do roadmap do projeto. Clique em cada fase para ver os
+        detalhes correspondentes.</p>
+
+    <div id="roadmap">
+        <div class="fase" onclick="toggleDetalhes('fase1')">Fase 1: Domine sua ferramenta:</div>
+        <div id="fase1" class="detalhes">
+            <ul>
+                <li>Buscar referências</li>
+                <!-- para uso repetido -->
+
+                <!-- <p style="padding: 0; margin: 0;"></p> -->
+
+
+                <li>Entender os conceitos de:
+                    <p style="padding: 0; margin: 0;">> Ajuste de corte, velocidade,
+                        transições e keywords.</p>
+                </li>
+                <li>Entender a linha do tempo.</li>
+                <li>Correção de cores e gradiação.</li>
+                <li>Efeitos visuais:
+                    <p style="padding: 0; margin: 0;">> Legendas animadas, gráfico de movimento e uso de nós</p>
+                </li>
+                <li>Fairlight: mixagem e master</li>
+                <li>Renderização: cada plataforma tem um comportamento diferente. </li>
+                <li>Crie Projetos sólidos!</li>
+            </ul>
+        </div>
+
+        <div class="fase" onclick="toggleDetalhes('fase2')">Fase 2: Desenvolvimento:</div>
+        <div id="fase2" class="detalhes">
+            <ul>
+                <li>Gestão de projetos:
+                    <p style="padding: 0; margin: 0;"> > Organize seus clipes e audios de forma que
+                        fiquem mais faceis de utiliza-los.</p>
+                </li>
+                <li>Otimização:
+                    <p style="padding: 0; margin: 0;">> Organize seus clipes e audiosUse sempre a melhor
+                        configuração possivel para sua ferramenta!</p>
+                </li>
+                <li>Pratique sempre modelos de videos novos.</li>
+            </ul>
+        </div>
+
+        <div class="fase" onclick="toggleDetalhes('fase3')">Fase 3: Oportunidades:</div>
+        <div id="fase3" class="detalhes">
+            <ul>
+                <div class="fase" onclick="toggleDetalhes('fase3.1')">Fase 3.1: Edição para redes sociais:</div>
+                <div id="fase3.1" class="detalhes">
+                    <ul>
+                        <li>Entre em contato e aprensente seus serviços.</li>
+                        <li>Promova parcerias no início</li>
+                        <li>Portfólio para Fiver e Linkedin</li>
+
+                    </ul>
+
+                </div>
+                <div class="fase" onclick="toggleDetalhes('fase3.2')">Fase 3.2: youtube:</div>
+                <div id="fase3.2" class="detalhes">
+                    <ul>
+                        <li>Conhecer os Padrões do youtbe, Tais como suas diretrizes.</li>
+                        <li>Procurar comunidades de criadores de conteúdo.</li>
+                    </ul>
+                </div>
+
+                <div class="fase" onclick="toggleDetalhes('fase3.3')">Fase 3.3: Específicas:</div>
+                <div id="fase3.3" class="detalhes">
+                    <ul>
+                        <li>Correção de cor e gradação:
+                            <p style="padding: 0; margin: 0;">Demo video Demonstrando suas habilidades.</p>
+                        </li>
+
+                        <li>Efeitos visuais e animações:
+                            <p style="padding: 0; margin: 0;">Muito utilizados em ONGs</p>
+                        </li>
+                        <li>Montagem de curta metragem e documentários:
+                            <p style="padding: 0; margin: 0;">Festivais de curtas agregam valor.</p>
+                        </li>
+                        <li>Ediçãode audio:
+                            <p style="padding: 0; margin: 0;">Domine a mixagem.</p>
+                        </li>
+                        <li>Pré visualização de projétos.</li>
+                        <li>Consultoria pós produção:
+                            <p style="padding: 0; margin: 0;">Pago ou não, vale muito a pena.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="fase" onclick="toggleDetalhes('fase3.4')">Fase 3.4: Videos Corporativos:</div>
+                <div id="fase3.4" class="detalhes">
+                    <ul>
+                        <li>Palestras, Treinamentos, Marketing.</li>
+                        <li>Uso de Linkedin.</li>
+                    </ul>
+                </div>
+                <div class="fase" onclick="toggleDetalhes('fase3.5')">Fase 3.5: Conteúdo educativo:</div>
+                <div id="fase3.5" class="detalhes">
+                    <ul>
+                        <li>Criadores de cursos como Hotmart e Kiwify.</li>
+                        <li>Behance e Vimeo.</li>
+                    </ul>
+                </div>
+
+
+
+
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="fase" onclick="toggleDetalhes('fase4')">Fase 4: Dicas:</div>
+    <div id="fase4" class="detalhes">
+        <ul>
+            <li>Noções visuais.</li>
+            <li> Portfólio sempre atualizado.</li>
+            <li>Networking digital ou presencial.</li>
+            <li>Valor de mercado e precificação.</li>
+        </ul>
+    </div>
+
+    <div class="fase" onclick="toggleDetalhes('fase5')">Fase 5: Pós-lançamento</div>
+    <div id="fase5" class="detalhes">
+        <ul>
+            <li>Coleta de feedback</li>
+            <li>Manutenção e suporte</li>
+            <li>Planejamento de atualizações</li>
+        </ul>
+    </div>
+    </div>
+
+    <script>
+        function toggleDetalhes(id) {
+            var detalhes = document.getElementById(id);
+            if (detalhes.style.display === "none" || detalhes.style.display === "") {
+                detalhes.style.display = "block";
+            } else {
+                detalhes.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
